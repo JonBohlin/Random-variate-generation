@@ -28,13 +28,13 @@ The remaining probability distributions are combinations of the above described 
 
 Java 17 LTS contains some very nice and effecient versions of the Exponential and Normal distributionm based on the paper:
 
-  Christopher D. McFarland (2015): A modified ziggurat algorithm for generating exponentially and normally distributed
-  pseudorandom numbers, Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2015.1060234
-  To link to this article: http://dx.doi.org/10.1080/00949655.2015.1060234
+    // Christopher D. McFarland (2015): A modified ziggurat algorithm for generating exponentially and normally distributed
+    // pseudorandom numbers, Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2015.1060234
+    // To link to this article: http://dx.doi.org/10.1080/00949655.2015.1060234
 
 DISCLAIMER: Although the distributions have been tested there will most likely be many bugs so use at your own risk.
             Some of the implemented distributions are based on the Gamma, Poisson, Student T and Exponential distributions
             and may therefore not be very efficient.
             
 Usage:  Just include the ExtendedDistributions class and instantiate an object, i.e. ExtendedDistributions e = new ExtendedDistributions();
-        Then you can just use e.nextGamma(), e.nextPoission() etc. See code for more info and for mandatory paramteres.
+        Then you can just use e.nextGamma(), e.nextPoission() etc. See code for more info and for mandatory paramters to include.
